@@ -1,0 +1,31 @@
+Spring:- 
+	Open source java framework, 
+	we can develop standalone and Enterprise Application, 
+	release in 2003(initial release)	
+	2004(production release spring 1.0 version)
+	developed by "Rod johnson"
+
+
+Spring Container:-
+	heart of the spring framework(core component of the spring framework)
+	
+	Responsibilities:- 
+		Manage bean objects
+		Manage bean Lifecycle	
+		Dependencies Injection
+		AOP(Aspects oriented programming) (like as object oriented Programming)
+		Transaction Management
+		i18N(International support)
+		etc.
+
+Types of spring container
+	1. Bean Factory	(old)
+	2. Application Context(New) (jaise core java me JVM hota h n waise hi waha pe spring container ko start karne ke liye ye hota h)  (It is interface)
+
+
+#object ko manage spring container karta h. 
+
+#configuration ka matlab h ki hmlog spring container ko btate h(instruction provide karte h) ki agar aapko object bnana h to Kiska bnana hai, kon si class ka bnana h, us object ki id ya name kya rahegi, us object ke ander jo property set rahegi uska value kya rahegi, wo kaam hmlog configuration ke through. 
+
+	
+#configuration hmlog XML file ke through ya java file ki through ya annotation ke through provide karte h.
